@@ -9,6 +9,10 @@ import { RegisterComponent } from './register/register.component';
 import { ExampageComponent } from './exampage/exampage.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { AdminComponent } from './admin/admin.component';
+import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
+import { EmailsentComponent } from './emailsent/emailsent.component';
+import { PasswordresetComponent } from './passwordreset/passwordreset.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { AdminComponent } from './admin/admin.component';
     RegisterComponent,
     ExampageComponent,
     FeedbackComponent,
-    AdminComponent
+    AdminComponent,
+    ForgotpasswordComponent,
+    EmailsentComponent,
+    PasswordresetComponent,
+   
   ],
   imports: [
     BrowserModule,
