@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ExampageComponent } from './exampage/exampage.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FeedbackComponent } from './feedback/feedback.component';
     LoginComponent,
     RegisterComponent,
     ExampageComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
