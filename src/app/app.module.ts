@@ -12,6 +12,9 @@ import { AdminComponent } from './admin/admin.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
 import { EmailsentComponent } from './emailsent/emailsent.component';
 import { PasswordresetComponent } from './passwordreset/passwordreset.component';
+import { HomeComponent } from './home/home.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { ReportcardComponent } from './reportcard/reportcard.component';
 
 
 @NgModule({
@@ -25,6 +28,9 @@ import { PasswordresetComponent } from './passwordreset/passwordreset.component'
     ForgotpasswordComponent,
     EmailsentComponent,
     PasswordresetComponent,
+    HomeComponent,
+    HomepageComponent,
+    ReportcardComponent,
    
   ],
   imports: [

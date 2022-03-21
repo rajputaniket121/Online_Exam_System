@@ -1,0 +1,28 @@
+body
+{
+    background-color: white;
+}
+table
+{
+	margin-top: 70px ;
+	margin-left: 90px;
+}
+h2
+{
+    text-align: center;
+}
+form#register
+{
+    background-color:white(235, 230, 230);
+    margin-left: 100px; 
+    margin-top: 30px;
+    margin-right:100px ;
+    border-width: 5px;
+    border-color: green;
+}
+button
+{
+    margin-left: 50px;
+    padding: 5px;
+
+}
